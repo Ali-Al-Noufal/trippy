@@ -1,0 +1,62 @@
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 100%;
+    overflow: hidden;
+    .card{
+        box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 25px 2px;
+        cursor: pointer;
+        margin-top: 25px;
+        border-radius: 7px;
+        width: 32%;
+        padding: 1rem 1rem;
+
+        
+        img{
+            width: 100%;
+            height: 200px;
+    overflow: hidden;
+        border-radius: 7px;
+        
+        }
+        h2{
+        font-size: 1.3rem;
+    padding: 0.9rem 0px 0.2rem;
+    font-weight: bold;
+    color: #222;
+        }
+        p{
+            padding:1rem 0;
+            color: #222;
+        }
+.delete{
+        border: none;
+    display: inline-block;
+
+       border-radius: .3rem; 
+               letter-spacing: 2px;
+    padding: 1rem .5rem;
+       margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+    white-space: nowrap;
+    color: #aa2f2f;
+    background-color: #fff;
+    &:hover{
+        color: #fff;
+        background-color: #aa2f2f;
+    }
+}
+    }
+    @media screen and (max-width: 850px) {
+    .card {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+}
+}

@@ -1,0 +1,9 @@
+.section{
+       margin: 4rem 6rem;
+       
+}
+@media screen and (max-width: 850px) {
+    .section {
+        margin: 4rem 2rem;
+    }
+}

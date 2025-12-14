@@ -1,0 +1,11 @@
+.aboutText{
+    text-align: start;
+    h1{
+            padding-bottom: 1rem;
+            font-size: 2em;
+            font-weight: bold;
+    }
+    p{
+        padding-bottom: 2rem;
+    }
+}
